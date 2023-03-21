@@ -41,10 +41,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-card{
-  background-image: url('./pages/images/4907157.jpg');
+.login {
+  /* background-image: url('./pages/images/4907157.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  backdrop-filter: blur(5px);
+  /* border: 2px solid #DE1E7A; */
+  border-radius: 2%;
+  /* box-shadow: 3px 3px 6px 0 #DE1E7A ; */
+  background-color: #ffffff1a;
 }
 /* span{
   margin-left: 1rem;

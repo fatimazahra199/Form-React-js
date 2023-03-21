@@ -4,9 +4,9 @@ import { Form, Button, InputGroup } from "react-bootstrap";
 
 function LoginForm() {
   return ( 
-    <div class="container d-flex justify-content-center align-items-center" >
-    <div class="card text-black m-5 w-45" >
-      <Form className="m-5 d-flex flex-column p-2 justify-content-center align-content-center ">
+    <div className="container d-flex justify-content-center align-items-center" >
+    <div className="login text-white m-5 w-45" >
+      <Form className="m-4 d-flex flex-column p-5 justify-content-center align-content-center ">
         <Form.Group controlId="formBasicEmail" class ="" >
           <Form.Label class="text-left mb-3 font-weight-bold">Email address</Form.Label>
           <InputGroup>
@@ -16,7 +16,7 @@ function LoginForm() {
         </Form.Group>
 
         <Form.Group controlId="formBasicPassword" className="">
-          <Form.Label class="text-left mb-3 mt-3">Password</Form.Label>
+          <Form.Label class="text-left mb-3 mt-3 ">Password</Form.Label>
           <Form.Control type="password" placeholder="Password" />
         </Form.Group>
         <span class="text-secondary mb-4">
